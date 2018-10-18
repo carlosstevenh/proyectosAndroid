@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--.........................................................................................-->
+    <!--Colores del Temas-->
+    <color name="colorPrimary">#d32f2f</color>
+    <color name="colorPrimaryLight">#f1969e</color>
+    <color name="colorPrimaryDark">#b71c1c</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorBackground">#f7f7f7</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <!--.........................................................................................-->
+    <!--Colores de Seleción de los Floating Buttons-->
+    <color name="colorAccent">#304ffe</color>
+    <color name="colorAccentLight">#6078ff</color>
+    <color name="colorInformationText">#FFFFFF</color>
+    <color name="colorInformationBackground">#d8110c1e</color>
+    <!--.........................................................................................-->
+    <!--Colores de Seleción de los Radio Buttons-->
+    <color name="colorRadioButtonOn">#333366</color>
+    <color name="colorRadioButtonOff">#c2c2d4</color>
+    <!--.........................................................................................-->
+    <!--Colores de la CardView-->
+    <color name="colorTextCardView">#000000</color>
+    <color name="colorBackgroundCardView">#ffffff</color>
+    <color name="colorIconCardView">#1f2549</color>
+    <color name="colorBackgroundList">#ededed</color>
+    <!--.........................................................................................-->
+    <!--Colores para el dialogo de coordenadasw-->
+    <color name="colorTitleBackground">#0e2a3d</color>
+    <!--.........................................................................................-->
+    <!--COLORS: SplashScreen de información del registro-->
+    <color name="colorSplashBackground">#143a48</color>
+    <color name="colorSplashBackgroundFailed">#541616</color>
+    <!--.........................................................................................-->
+    <!--COLORS: Images state-->
+    <color name="colorBackgroundStatePositive">#298964</color>
+    <color name="colorBackgroundStateNegative">#4b4b4b</color>
+</resources>

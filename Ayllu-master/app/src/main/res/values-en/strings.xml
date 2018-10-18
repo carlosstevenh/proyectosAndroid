@@ -1,0 +1,449 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="app_name">Ayllu</string>
+    <!--============================================================================================
+        STRINGS: LOGIN DEL USUARIO
+        ============================================================================================-->
+    <string name="login">Login</string>
+    <string name="identificacion">ID</string>
+    <string name="contrasena">Password</string>
+    <string name="mostrarContrasena">Show password</string>
+    <string name="login_user_process_authenticate">Logging in</string>
+    <string name="login_user_process_message">Please wait …</string>
+
+
+    <!--============================================================================================
+        STRINGS: MENU DEL ADMINISTRADOR
+        ============================================================================================-->
+    <string name="item_navbar_monitor_recoder">MONITOR REGISTER</string>
+    <string name="item_navbar_monitor_list">MONITORS</string>
+    <string name="item_menu_monitoring">Monitor</string>
+    <string name="item_menu_exit">Get out</string>
+    <!--.........................................................................................-->
+    <!--FRAGMENT REGISTRAR MONITOR-->
+    <string name="registration_form_id">ID</string>
+    <string name="registration_form_name">First name</string>
+    <string name="registration_form_surname">Last name</string>
+    <string name="registration_form_password">Password</string>
+    <string name="registration_form_confpassword">Confirm Password</string>
+    <string name="registration_form_button_record">To register</string>
+    <string name="registration_form_alert_invalid_field">Invalid field</string>
+    <string name="registration_form_alert_empty_field">Empty field</string>
+    <string name="registration_form_alert_password">Must contain uppercase, lowercase, diaries and a size greater than 8 characters</string>
+    <string name="registration_form_alert_different_passwords">Passwords do not match</string>
+    <string name="registration_form_process_shipping_status">Recording monitor</string>
+    <string name="registration_form_process_message">Please wait …</string>
+    <string name="registration_form_process_successful_message">Added registry</string>
+    <string name="registration_form_process_error_message">There was an error</string>
+    <string name="registration_form_process_message_server">Could not connect to server</string>
+    <!--.........................................................................................-->
+    <!--FRAGMENT LISTA DE MONITORES -->
+    <string name="item_menu_edit_monitor">Edit monitor</string>
+    <string name="item_menu_disable_monitor">Disable monitor</string>
+    <string name="item_cardview_user_name">First name</string>
+    <string name="item_cardview_user_surname">Last name</string>
+    <string name="item_cardview_user_id">ID</string>
+    <string name="process_message_question">¿Are you sure to disable the monitor?</string>
+    <string name="process_message_title_alert">Warning</string>
+    <string name="process_message_disable_monitor">Disable monitor</string>
+    <string name="process_message">Please wait …</string>
+    <string name="process_successful_message">Monitor disabled</string>
+    <string name="process_error_message">No data found</string>
+    <string name="process_message_server">Could not connect to server</string>
+    <!--.........................................................................................-->
+    <!--ACTIVITY EDITAR MONITOR -->
+    <string name="title_activity_edit_monitor">Edit monitor</string>
+    <string name="edit_form_id">ID</string>
+    <string name="edit_form_name">First name</string>
+    <string name="edit_form_surname">Last name</string>
+    <string name="edit_form_password">Password</string>
+    <string name="edit_form_confpassword">Confirm Password</string>
+    <string name="edit_form_alert_invalid_field">Invalid field</string>
+    <string name="redit_form_alert_empty_field">Empty field</string>
+    <string name="edit_form_alert_password">Must contain uppercase, lowercase, diaries and a size greater than 8 characters</string>
+    <string name="edit_form_alert_different_passwords">Passwords do not match</string>
+    <string name="edit_form_process_message_update_monitor">Updating monitor</string>
+    <string name="edit_form_process_message">Please wait …</string>
+    <string name="edit_form_process_successful_message">Monitor updated</string>
+    <string name="edit_form_process_error_message">There was an error</string>
+    <string name="edit_form_process_message_server">Could not connect to server</string>
+
+    <!--============================================================================================
+        STRINGS: MENU DEL MONITOR
+        ============================================================================================-->
+    <string name="next">FOLLOWING</string>
+    <string name="skip">TO CHOOSE</string>
+    <string name="start">START</string>
+    <string name="monitoring_menu_message_exit">¿Do you want to go out?</string>
+    <string name="monitoring_menu_message_upload">There are monitors registered with no internet connection, ¿Do you want to upload them now?</string>
+
+    <!--============================================================================================
+        MONITORING MODULE
+        ============================================================================================-->
+    <!--.........................................................................................-->
+    <!--SLIDE REGISTRAR MONITOREO-->
+    <string name="slide_1_title">REGISTER A MONITOR</string>
+    <string name="slide_1_desc">Travels, monitors and get reports of the State of conservation of the QHAPAQ ÑAN</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: MONITORING LIST-->
+    <string name="titleListMonitoring">Monitoring Qhapaq Ñan</string>
+    <string name="descriptionInfoListMonitoring">At the moment, there are no monitoring</string>
+    <string name="descriptionInfoListMonitoringNegative">There are no monitoring for the current selection</string>
+    <string name="descriptionTramo">SECTION</string>
+    <string name="descriptionSubtramo">SUBSECTION</string>
+    <string name="descriptionSeccion">SEGMENTS</string>
+    <string name="descriptionPropiedad">NOMINATED PROPERTY</string>
+    <string name="itemCardViewFecha">DATE:</string>
+    <string name="itemCardViewLatitud">LATITUDE:</string>
+    <string name="itemCardViewLongitud">LENGTH:</string>
+    <string name="itemCardViewVariable">VARIABLE:</string>
+    <string name="itemCardViewFactor">FACTOR:</string>
+    <string name="itemCardViewDescriptionPrueba">Monitoring image</string>
+    <string name="titleListMonitoringDialog">INFORMATION</string>
+    <string name="titleListMonitoringDialogError">ERROR</string>
+    <string name="descriptionListMonitoringDialog">Select an area to record a monitoring</string>
+    <string name="opcionListMonitoringDialog">COMPLETE</string>
+    <string name="opcion_list_monitoring_dialog_acept">TO ACCEPT</string>
+    <string name="opcion_list_monitoring_dialog_cancel">CANCEL</string>
+    <string name="opcion_list_monitoring_dialog_ok">OK</string>
+    <string name="list_monitoring_process_message_search">Searching for monitoring</string>
+    <string name="list_monitoring_process_message">Please wait …</string>
+    <string name="list_monitoring_process_message_server">Could not connect to server</string>
+    <string name="list_monitoring_title_dialog_offline">Monitoring without internet connection</string>
+    <string name="list_monitoring_description_dialog_offline">There is a data package available</string>
+    <string name="list_monitoring_description_dialog_offline_question">¿Do you want to use them?</string>
+    <string name="list_monitoring_card_view_item_property">P. NOMINADA</string>
+    <string name="list_monitoring_card_view_item_variable">VARIABLE</string>
+    <string name="list_monitoring_card_view_item_date">DATE</string>
+    <string name="list_monitoring_card_view_item_latitude">LATITUDE</string>
+    <string name="list_monitoring_card_view_item_length">LENGTH</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: MONITORING DETAIL-->
+    <string name="titleDetailMonitoring">Monitoring</string>
+    <string name="itemCardViewPropiedad">NOMINATED PROPERTY:</string>
+    <string name="itemCardViewCoordenadas">COORDINATES:</string>
+    <string name="itemCardViewMonitor">MONITOR:</string>
+    <string name="itemCardViewRepercusiones">REPERCUSSIONS:</string>
+    <string name="itemCardViewOrigen">ORIGIN:</string>
+    <string name="itemCardViewPorcentaje">PERCENTAGE OF APPEARANCE:</string>
+    <string name="itemCardViewFrecuencia">FREQUENCY OF APPEARANCE:</string>
+    <string name="titleDetailMonitoringDialog">INFORMATION</string>
+    <string name="descriptionDetailMonitoringDialog">You can not monitor the point two times in the same day</string>
+    <string name="monitoring_detail_dialog_option_positive">COMPLETE</string>
+    <string name="monitoring_detail_rep_positive">Positive</string>
+    <string name="monitoring_detail_rep_negative">Negative</string>
+    <string name="monitoring_detail_rep_current">Current</string>
+    <string name="monitoring_detail_rep_potential">Potential</string>
+    <string name="monitoring_detail_org_internal">Internal</string>
+    <string name="monitoring_detail_org_external">External</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: MONITORING REGISTRATION FORM-->
+    <string name="titleFormRegistrationMonitoring">Monitoring form</string>
+    <string name="titleFormRepercusiones">REPERCUSSIONS:</string>
+    <string name="titleFormOrigen">ORIGIN:</string>
+    <string name="titleFormPorcentaje">PERCENTAGE OF APPEARANCE:</string>
+    <string name="titleFormFrecuencia">FREQUENCY OF APPEARANCE:</string>
+    <string name="descriptionButtonFactor">FACTOR</string>
+    <string name="descriptionButtonVariable">VARIABLE</string>
+    <string name="titlePointDialog">Set the coordinates for the point of involvement</string>
+    <string name="latitudePointDialog">LATITUDE</string>
+    <string name="lengthPointDialog">LENGTH</string>
+    <string name="optionPositivasRepercusiones">Positive</string>
+    <string name="optionNegativasRepercusiones">Negative</string>
+    <string name="optionActualesRepercusiones">Current</string>
+    <string name="optionPotencialesRepercusiones">Potential</string>
+    <string name="optionInternoOrigen">Internal</string>
+    <string name="optionExternoOrigen">External</string>
+    <string name="optionPorcentaje">[1%-10%] RESTRICTED</string>
+    <string name="optionFrecuencia">JUST ONCE</string>
+    <string name="titleFormRegistrationMonitoringDialog">INFORMATION</string>
+    <string name="descriptionFormRegistrationMonitoringVariableDialog">Please select variable</string>
+    <string name="descriptionFormRegistrationMonitoringCameraDialog">You must take at least one photo</string>
+    <string name="descriptionFormRegistrationMonitoringPorcentajeError">Please select percentage</string>
+    <string name="descriptionFormRegistrationMonitoringFrecuenciaError">Please select frequency</string>
+    <string name="descriptionFormRegistrationMonitoringCoordenadasError">Please register the coordinates</string>
+    <string name="titlebuttonCambiar">CHANGE</string>
+    <string name="titlebuttonElegir">TO CHOOSE</string>
+    <string name="titlebuttonFijar">PIN UP</string>
+    <string name="registration_form_dialog_option_positive">COMPLETE</string>
+    <string name="registration_form_dialog_option_ok">OK</string>
+    <string name="registration_form_dialog_option_cancel">CANCEL</string>
+    <string name="registration_form_dialog_title_factors">FACTORS</string>
+    <string name="registration_form_dialog_title_variables">VARIABLES</string>
+    <string name="registration_form_dialog_title_percentage">PERCENTAGE OF APPEARANCE</string>
+    <string name="registration_form_dialog_title_frequency">FREQUENCY OF APPEARANCE</string>
+    <string name="registration_message_permissions">Permissions not granted</string>
+    <string name="registration_form_photo_evidence_one">PHOTOGRAPHY N°1</string>
+    <string name="registration_form_photo_evidence_two">PHOTOGRAPHY N°2</string>
+    <string name="registration_form_photo_evidence_three">PHOTOGRAPHY N°3</string>
+    <string name="vertical_form_stepper_form_last_step">CONFIRMATION</string>
+    <string name="vertical_form_stepper_form_continue">CONTINUE</string>
+    <string name="vertical_form_stepper_form_confirm_button">CONFIRM DATA</string>
+
+    <string-array name="listPorcentaje">
+        <item>[1%-10%] RESTRICTED</item>
+        <item>[11%-50%] LOCATED</item>
+        <item>[51%-90%] EXTENSIVE</item>
+        <item>[91%-100%] EXTENDED</item>
+    </string-array>
+
+    <string-array name="listFrecuencia">
+        <item>JUST ONCE</item>
+        <item>INTERMITTENT APPEARANCE</item>
+        <item>FREQUENT PRESENCE</item>
+    </string-array>
+
+    <string-array name="registration_form_new">
+        <item>FACTOR AND VARIABLE</item>
+        <item>COORDINATES</item>
+        <item>PHOTOGRAPHIC EVIDENCE</item>
+        <item>PERCENTAGE OF APPEARANCE</item>
+        <item>FREQUENCY OF APPEARANCE</item>
+        <item>ORIGIN</item>
+        <item>REPERCUSSIONS</item>
+    </string-array>
+
+    <string-array name="registration_form_monitoring">
+        <item>PHOTOGRAPHIC EVIDENCE</item>
+        <item>PERCENTAGE OF APPEARANCE</item>
+        <item>FREQUENCY OF APPEARANCE</item>
+        <item>ORIGIN</item>
+        <item>REPERCUSSIONS</item>
+    </string-array>
+    <!--.........................................................................................-->
+    <!--STRINGS: MONITORING SUMMARY-->
+    <string name="summary_title">Summary</string>
+    <string name="summary_item_title_factor">FACTOR:</string>
+    <string name="summary_item_title_variable">VARIABLE:</string>
+    <string name="summary_item_title_coodinates">COORDINATES:</string>
+    <string name="summary_item_title_percentage">PERCENTAGE OF APPEARANCE:</string>
+    <string name="summary_item_title_frequency">FREQUENCY OF APPEARANCE:</string>
+    <string name="summary_item_title_origin">ORIGIN:</string>
+    <string name="summary_item_title_repercussions">REPERCUSSIONS:</string>
+    <string name="summary_item_description_rep_positive">POSITIVE</string>
+    <string name="summary_item_description_rep_negative">NEGATIVE</string>
+    <string name="summary_item_description_rep_current">CURRENT</string>
+    <string name="summary_item_description_rep_potential">POTENTIAL</string>
+    <string name="summary_item_description_org_internal">INTERNAL</string>
+    <string name="summary_item_description_org_external">EXTERNAL</string>
+    <string name="summary_process_message_upload">Raising the data</string>
+    <string name="summary_process_message">Please wait …</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: MONITORING INFO-->
+    <string name="successfulRecordTitle">SUCCESSFUL REGISTRATION</string>
+    <string name="successfulRecordImageDescription">OK</string>
+    <string name="successfulRecordMonitoringDescription">The monitoring has registered without any disadvantage</string>
+    <string name="successfulRecordResponseDescription">The evaluation has registered without any disadvantage</string>
+    <string name="offlineRecordTitle">REGISTER WITHOUT INTERNET CONNECTION</string>
+    <string name="offlineRecordImageDescription">OFFLINE</string>
+    <string name="offlineRecordMonitoringDescription">The monitoring has registered partially in the device, once I connected to Internet the monitoring it will be raised automatically</string>
+    <string name="failedRecordTitle">SIGN UP FAILED</string>
+    <string name="failedRecordImageDescription">ERROR</string>
+    <string name="failedRecordMonitoringDescription">The monitoring are not has been able to register, please try again</string>
+    <string name="failedRecordResponseDescription">The evaluation are not has been able to register, please try again</string>
+    <string name="info_dialog_title">INFORMATION</string>
+    <string name="info_dialog_description">¿Do you want to register other points in the current section?</string>
+    <string name="info_dialog_option_accept">TO ACCEPT</string>
+    <string name="info_dialog_option_cancel">CANCEL</string>
+
+    <!--============================================================================================
+        INSTITUTIONAL RESPONSE MODULE
+        ============================================================================================-->
+    <!--.........................................................................................-->
+    <!--SLIDE RESPUESTA INSTITUCIONAL-->
+    <string name="slide_2_title">INSTITUTIONAL RESPONSE</string>
+    <string name="slide_2_desc">Evaluates the institutional response of monitoring with negative repercussions</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: INSTITUTIONAL LIST-->
+    <string name="institutional_list_title">Institutional response</string>
+    <string name="institutional_list_message_negative">There are no monitoring systems with negative repercussions for the current selection</string>
+    <string name="institutional_list_button_tramo">SECTION</string>
+    <string name="institutional_list_button_subtramo">SUBSECTION</string>
+    <string name="institutional_list_button_seccion">SEGMENTS</string>
+    <string name="institutional_list_button_propiedad">NOMINATED PROPERTY</string>
+    <string name="institutioanl_list_dialog_title">INFORMATION</string>
+    <string name="institutional_list_dialog_description">Select a section to look for the monitoring</string>
+    <string name="institutional_list_dialog_option_ok">OK</string>
+    <string name="institutional_list_process_message_search">Searching for monitoring</string>
+    <string name="institutional_list_process_message">Please wait …</string>
+    <string name="institutional_list_process_message_negative">No data found</string>
+    <string name="institutional_list_process_message_server">Could not connect to server</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: INSTITUTIONAL RESPONSE FORM-->
+    <string name="institutional_response_form_title">Evaluation form</string>
+    <string name="institutional_response_form_item_evaluacion">Evaluation</string>
+    <string name="institutional_response_form_item_personal">Personal</string>
+    <string name="institutional_response_form_item_tiempo">Time</string>
+    <string name="institutional_response_form_item_presupuesto">Budget</string>
+    <string name="institutional_response_form_item_recursos">Means</string>
+    <string name="institutional_response_form_item_conocimiento">Knowledge</string>
+    <string name="institutional_response_form_button_register">TO REGISTER</string>
+    <string name="institutional_response_form_process_message_upload">Recording the evaluation</string>
+    <string name="institutional_response_form_process_message">Please wait …</string>
+    <string name="institutional_response_form_process_message_negative">No data found</string>
+    <string name="institutional_response_form_process_message_positive">Evaluation Registered!</string>
+    <string name="institutional_response_form_process_message_server">Could not connect to server</string>
+
+    <string-array name="list_general_evaluation">
+        <item>INSIGNIFICANT</item>
+        <item>MINORS</item>
+        <item>SIGNIFICANT</item>
+    </string-array>
+
+    <string-array name="list_specific_evaluation">
+        <item>NO CAPACITY</item>
+        <item>LOW CAPACITY</item>
+        <item>MEDIUM CAPACITY</item>
+        <item>HIGH CAPACITY</item>
+    </string-array>
+
+    <!--============================================================================================
+       STATISTICAL GRAPHS MODULE
+       =============================================================================================-->
+    <!--.........................................................................................-->
+    <!--SLIDE GRAFICOS ESTADISTICOS-->
+    <string name="slide_3_title">STATISTICAL GRAPHICS</string>
+    <string name="slide_3_desc">Makes decisions of high impact for the benefit of this vast and remote serial well</string>
+    <string name="statistical_graphs_title">At the moment, no data were analyzed</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: STATISTICAL GRAPHS MENU-->
+    <string name="statistical_graphs_menu_title">Statistical graphics menu</string>
+    <string name="statistical_graphs_menu_card_view_general">General Statistical Graphs</string>
+    <string name="statistical_graphs_menu_card_view_specific">Specific Statistical Graphs</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: GENERAL STATISTICAL GRAPHS BY FACTOR-->
+    <string name="general_statistical_graph_title">Factor analysis</string>
+    <string name="general_statistical_graph_button_pais">COUNTRY</string>
+    <string name="general_statistical_graph_button_tramo">SECTION</string>
+    <string name="general_statistical_graph_dialog_title_countries">COUNTRIES</string>
+    <string name="general_statistical_graph_dialog_title_tramos">SECTIONS</string>
+    <string name="general_statistical_graph_process_message_analysis">Analyzing the data</string>
+    <string name="general_statistical_graph_process_message">Please wait …</string>
+    <string name="general_statistical_graph_process_message_negative">No data found</string>
+    <string name="general_statistical_graph_process_message_server">Could not connect to server</string>
+    <string name="general_statistical_graph_dialog_option_ok">OK</string>
+    <string name="general_statistical_graph_alert_dowload">Successfully downloaded!</string>
+    <string name="general_statistical_graph_message_permissions">Permissions not granted</string>
+    <string name="general_statistical_graph_file_name">GraphicBySection</string>
+    <string name="general_statistical_graph_message_info">Select a section to process your data</string>
+    <string name="general_statistical_graph_message_download">Error downloading graph</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: GENERAL STATISTICAL GRAPHS BY VARIABLE-->
+    <string name="statistical_graph_variable_title">Variable analysis</string>
+    <string name="statistical_graph_variable_process_message_analysis">Analyzing the data</string>
+    <string name="statistical_graph_variable_process_message">Please wait …</string>
+    <string name="statistical_graph_variable_process_message_negative">No data found</string>
+    <string name="statistical_graph_variable_process_message_server">Could not connect to server</string>
+    <string name="statistical_graph_variable_alert_dowload">Successfully downloaded!</string>
+    <string name="statistical_graph_variable_message_permissions">Permissions not granted</string>
+    <string name="statistical_graph_variable_file_name">GraphicByVariable</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: GENERAL STATISTICAL GRAPHS OF VARIABLE IN TIME-->
+    <string name="statistical_graph_variable_weather_title">Variable/time analysis</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: SEARCH FORM-->
+    <string name="search_form_title">Search Filters</string>
+    <string name="search_form_item_title_country">COUNTRY</string>
+    <string name="search_form_item_title_date">DATE</string>
+    <string name="search_form_item_title_factor">FACTOR AND VARIABLE</string>
+    <string name="search_form_item_description_date_enable">Enable date range</string>
+    <string name="search_form_item_description_date_since">Since:</string>
+    <string name="search_form_item_description_date_until">Until:</string>
+    <string name="search_form_item_description_factor">Factor</string>
+    <string name="search_form_item_description_variable">Variable</string>
+    <string name="search_form_item_title_button_filter">FILTER</string>
+    <string name="search_form_alert_factor">Select a factor</string>
+    <string name="search_form_alert_variable">Select a variable</string>
+    <string name="search_form_alert_date">Incorrect date</string>
+    <string name="search_form_alert_date_range">Select a range of dates</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: LIST OF CRITICAL POINTS-->
+    <string name="list_critical_points_title">Monitoring</string>
+    <string name="list_critical_points_card_view_item_factor">FACTOR</string>
+    <string name="list_critical_points_card_view_item_variable">VARIABLE</string>
+    <string name="list_critical_points_card_view_item_property">NOMINATED PROPERTY</string>
+    <string name="list_critical_points_card_view_item_country">COUNTRY</string>
+    <string name="list_critical_points_card_view_item_date">DATE</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: INFO CRITICAL POINTS-->
+    <string name="info_critical_point_item_date">DATE:</string>
+    <string name="info_critical_point_item_monitor">MONITOR:</string>
+    <string name="info_critical_point_item_country">COUNTRY:</string>
+    <string name="info_critical_point_item_tramo">SECTION:</string>
+    <string name="info_critical_point_item_subtramo">SUBSECTION:</string>
+    <string name="info_critical_point_item_seccion">SEGMENT:</string>
+    <string name="info_critical_point_item_propiedad">P. NOMINADA:</string>
+    <string name="info_critical_point_item_factor">FACTOR:</string>
+    <string name="info_critical_point_item_variable">VARIABLE:</string>
+    <string name="info_critical_point_item_lenght">LATITUDE:</string>
+    <string name="info_critical_point_item_latitude">LENGTH:</string>
+    <string name="info_critical_point_button_response">RESPONSE GRAPHIC</string>
+    <string name="info_critical_point_button_porfre">GRAPHIC PERCENTAGE-\nFREQUENCY</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: GRAPH PERCENTAGE AND FREQUENCY-->
+    <string name="graph_percentage_frequency_title">Percentage / frequency analysis</string>
+    <string name="graph_percentage_frequency_subtitle_horizontal">Date of monitoring</string>
+    <string name="graph_percentage_frequency_subtitle_vertical">S\nc\no\nr\ne</string>
+    <string name="graph_percentage_frequency_subtitle_info">INFORMATION BY POINT</string>
+    <string name="graph_percentage_frequency_item_Puntaje">SCORE:</string>
+    <string name="graph_percentage_frequency_description">Percentage and frequency of occurrence</string>
+    <string name="graph_percentage_frequency_file_name">GraphicPercentageFrequency</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: GRAPH INSTITUTIONAL RESPONSE-->
+    <string name="graph_institutional_response_title">Institutional response analysis</string>
+    <string name="graph_institutional_response_subtitle_horizontal">DATE OF MONITORING</string>
+    <string name="graph_institutional_response_subtitle_vertical">V\nA\nL\nU\nE</string>
+    <string name="graph_institutional_response_settings">Options</string>
+    <string name="graph_institutional_response_evaluation">Evaluation</string>
+    <string name="graph_institutional_response_personal">Personal</string>
+    <string name="graph_institutional_response_time">Time</string>
+    <string name="graph_institutional_response_budget">Budget</string>
+    <string name="graph_institutional_response_means">Means</string>
+    <string name="graph_institutional_response_knowledge">Knowledge</string>
+    <string name="graph_institutional_response_file_name">GraphicInstitutionalResponse</string>
+    <string name="graph_institutional_response_options_title">OPTIONS</string>
+    <string name="graph_institutional_response_info_title">MONITORING INFORMATION</string>
+
+    <!--============================================================================================
+       SETTINGS APP MODULE
+       =============================================================================================-->
+    <!--.........................................................................................-->
+    <!--SLIDE CONFIGURACIÓN DEL SISTEMA-->
+    <string name="slide_4_title">CONFIGURE YOUR APPLICATION</string>
+    <string name="slide_4_desc">Additional application options</string>
+    <!--.........................................................................................-->
+    <!--STRINGS: SETTINGS APP-->
+    <string name="settings_app_title">Configuration</string>
+    <string name="settings_app_submodule_title_monitoring_offline">MONITORING WITHOUT CONNECTION</string>
+    <string name="settings_app_submodule_option_title_delete_list">Delete points list</string>
+    <string name="settings_app_submodule_option_description_delete_list">Free memory by removing points you do not need.</string>
+    <string name="settings_app_submodule_option_title_select_list">Choose Point List</string>
+    <string name="settings_app_submodule_option_description_select_list">Determine the place you want to monitor.</string>
+    <string name="settings_app_submodule_title_report">REPORT</string>
+    <string name="settings_app_submodule_option_title_report">Choose the points to report</string>
+    <string name="settings_app_submodule_option_description_report">Determine the place you want to report.</string>
+    <string name="settings_app_submodule_title_general">GENERAL</string>
+    <string name="settings_app_submodule_option_title_logout">Sign out</string>
+    <string name="settings_app_submodule_option_description_logout">Finishing the use of the application for the current user.</string>
+    <string name="settings_app_submodule_option_title_about">About the application</string>
+    <string name="settings_app_submodule_option_description_about">General application information.</string>
+    <string name="settings_app_submodule_option_title_admin">Administrator</string>
+    <string name="settings_app_submodule_option_description_admin">Enter Administrator mode.</string>
+    <string name="settings_app_dialog_option_continue">CONTINUE</string>
+    <string name="settings_app_dialog_option_confirm">CONFIRM</string>
+    <string name="settings_app_dialog_option_cancel">CANCEL</string>
+    <string name="settings_app_dialog_option_download">DOWNLOAD</string>
+    <string name="settings_app_dialog_title">ESTABLISHED SELECTION</string>
+    <string name="settings_app_process_message_search_positive">Monitoring downloaded, \n¡Successfully!</string>
+    <string name="settings_app_process_message_search_negative">No monitoring for current selection</string>
+    <string name="settings_app_process_message_report_positive">Report generated\n !Successfully!</string>
+    <string name="cerrarSesion">¿Are you sure to log out?</string>
+    <string name="title_warning">Warning</string>
+    <string name="noAdmin">ou are not an administrator</string>
+    <string name="desarrolladoPor">Developed by:</string>
+    <string name="enColaboracion">In collaboration with:</string>
+    <string name="AcerceDe">About</string>
+    <string name="analisisVarTie">Variable time analysis</string>
+    <string name="graficaVariableTramo">VariableTimeGraph</string>
+    <string name="borrarDatos">¿Are you sure you want to delete downloaded monitors?</string>
+
+</resources>
